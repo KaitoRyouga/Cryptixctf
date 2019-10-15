@@ -71,5 +71,8 @@
   
   
   ```
+ - Chậc, chả mãi mới ra flag, máy cùi
+ 
+ ![flag](Selection_001.png)
 
   
