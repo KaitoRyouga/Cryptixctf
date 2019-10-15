@@ -73,6 +73,6 @@
   ```
  - Chậc, chạy mãi mới ra flag, máy cùi gh
  
- ![flag](Selection_001.png)
+  ![flag](Selection_001.png)
 
   
