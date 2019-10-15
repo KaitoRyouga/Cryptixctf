@@ -14,12 +14,12 @@
 
 - Lúc đó câu query gốc sẽ trở thành:
 
-  - `SELECT * FROM user WHERE username='admin' OR '1' = '1 and password = 'admin' OR '1' = '1''`
+  - `SELECT * FROM user WHERE username='admin' OR '1' = '1' and password = 'admin' OR '1' = '1'`
 
 - Payload của ta cố tình thiếu dấu `'` ở cuối cùng để nó nối với câu query của đề sao cho hoàn chình, không bị lỗi xảy ra
 
 - Lúc này biến *$user* và *$pass* có là gì thì cũng không quan trọng, chúng bị biến thành toán tử `OR`, tức là *A đúng hay B đúng hoặc cả A và B đều đúng*, chúng ta đã thành công trong việc tạo ra mệnh đề *'1' = '1'*, chúng luôn đúng với mọi trường hợp. Vậy dù *$user* và *$pass* có sai thì ta vẫn vẫn luôn có mệnh đề đúng, Vậy câu *query* đó luôn chạy
 
-- Nói dài vậy đủ rồi, flag đây
+- Nói dài vậy đủ rồi, s
 
   ![1](Selection_001.png)
