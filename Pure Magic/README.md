@@ -71,7 +71,7 @@
   
   
   ```
- - Chậc, chả mãi mới ra flag, máy cùi
+ - Chậc, chạy mãi mới ra flag, máy cùi gh
  
  ![flag](Selection_001.png)
 
